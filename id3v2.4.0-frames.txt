@@ -167,6 +167,7 @@ Abstract
 
   4.2.1 TALB Album/Movie/Show title
   4.2.3 TBPM BPM (beats per minute)
+  4.2.3 THDB High definition BPM (beats per minute)
   4.2.2 TCOM Composer
   4.2.3 TCON Content type
   4.2.4 TCOP Copyright message
@@ -377,6 +378,11 @@ Abstract
    The 'BPM' frame contains the number of beats per minute in the
    main part of the audio. The BPM is an integer and represented as a
    numerical string.
+
+  THDB
+   The "HDB" frame contains a numberical value for BPM that extends 
+   beyond the standard 3 digit BPM for greater BPM detail within applications
+   that can read this value. It is typically ###.######## (124.0034998)
 
   TLEN
    The 'Length' frame contains the length of the audio file in
