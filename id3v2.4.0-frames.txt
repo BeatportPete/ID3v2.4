@@ -184,6 +184,7 @@ Abstract
   4.2.1 TIT1 Content group description
   4.2.1 TIT2 Title/songname/content description
   4.2.1 TIT3 Subtitle/Description refinement
+  4.2.1 TIT4 Version
   4.2.3 TKEY Initial key
   4.2.3 TLAN Language(s)
   4.2.3 TLEN Length
@@ -285,6 +286,13 @@ Abstract
    The 'Subtitle/Description refinement' frame is used for information
    directly related to the contents title (e.g. "Op. 16" or "Performed
    live at Wembley").
+
+  TIT4
+   The 'Version' frame is used to describe the completion state of the
+   audio file. This is so you can differentiate where in the process the
+   audio file sits. A final mix (pre-mastered) would be "Final Mix". If 
+   mastered then the version would be "Mastered". If an edit of the original
+   then defined as "Edit".
 
   TALB
    The 'Album/Movie/Show title' frame is intended for the title of the
