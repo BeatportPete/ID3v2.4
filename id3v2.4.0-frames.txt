@@ -166,6 +166,7 @@ Abstract
   4.7   SYTC Synchronised tempo codes
 
   4.2.1 TALB Album/Movie/Show title
+  4.2.3 TAUT Audio Type
   4.2.3 TBPM BPM (beats per minute)
   4.2.3 THDB High definition BPM (beats per minute)
   4.2.2 TCOM Composer
@@ -410,6 +411,16 @@ Abstract
    three characters according to ISO-639-2 [ISO-639-2]. If more than one
    language is used in the text their language codes should follow
    according to the amount of their usage, e.g. "eng" $00 "sve" $00.
+
+  TAUT
+   The "Audio Type" frame is used to define what type of audio the file contains.
+   Examples in use are:
+   TRACK - A copywritten complete work (a song)
+   STEM - A collection of stems from a song (copywritten)
+   PART - A collection of parts (samples or loops) from a song (copywritten)
+   LOOP - A musical or percussive loop (royalty-free)
+   ONESHOT - An instrument sample or single "hit" (royalty-free)
+   SFX - A sound effect (royalty-free)
 
   TCON
    The 'Content type', which ID3v1 was stored as a one byte numeric
