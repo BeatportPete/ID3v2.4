@@ -1,16 +1,16 @@
 #acl All:read
 {{{
-$Id: id3v2.4.0-frames.txt,v 1.1 2003/07/27 18:28:34 id3 Exp $
+$Id: id3v2.4.1-frames.txt,v 1.0 2012/12/06 18:28:34 id3 Exp $
 
 Informal standard                                             M. Nilsson
-Document: id3v2.4.0-frames.txt                         1st November 2000
+Document: id3v2.4.1-frames.txt                         6th December 2012
 
 
-                  ID3 tag version 2.4.0 - Native Frames
+                  ID3 tag version 2.4.1 - Native Frames
 
 Status of this document
 
-   This document is an informal standard and replaces the ID3v2.3.0
+   This document is an informal standard and replaces the ID3v2.4.0
    standard [ID3v2]. A formal standard will use another revision number
    even if the content is identical to document. The contents in this
    document may change for clarifications but never for added or altered
@@ -21,15 +21,11 @@ Status of this document
 
 Abstract
 
-   This document describes the frames natively supported by ID3v2.4.0,
-   which is a revised version of the ID3v2 informal standard [ID3v2.3.0]
-   version 2.3.0. The ID3v2 offers a flexible way of storing audio meta
+   This document describes the frames natively supported by ID3v2.4.1.
+   The ID3v2 offers a flexible way of storing audio meta
    information within audio file itself. The information may be
    technical information, such as equalisation curves, as well as title,
    performer, copyright etc.
-
-   ID3v2.4.0 is meant to be as close as possible to ID3v2.3.0 in order
-   to allow for implementations to be revised as easily as possible.
 
 
 1.   Table of contents
