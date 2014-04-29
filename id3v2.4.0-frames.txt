@@ -2,8 +2,9 @@
 {{{
 $Id: id3v2.4.1-frames.txt,v 1.0 2012/12/06 18:28:34 id3 Exp $
 
-Informal standard                                             M. Nilsson
-Document: id3v2.4.1-frames.txt                         6th December 2012
+Informal standard
+Document: id3v2.4.1-frames.txt
+6th December 2012
 
 
                   ID3 tag version 2.4.1 - Native Frames
